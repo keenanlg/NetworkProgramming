@@ -1,4 +1,4 @@
-# TCPEchoClient
+# Assignment1 - TCPEchoClient
 -The client will contact the server and request a list of text files that server has in its
 possession. The server will have 3 different text files: song.txt, poem.txt, quote.txt. Server
 will send the list of files to the client. Client will then print the selection for the user and
