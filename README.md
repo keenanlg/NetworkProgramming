@@ -11,9 +11,15 @@ text to the standard output and close the connection.
 -Develop a program called udping that will act as either a udp ping server (which simply echoes udp ping
 packets back to the source), or a udp ping client which works similarly to the standard ping program.
 The program must support the following command line options provided in any order (default values after parentheses):
+
 -c ping-packet-count (stop after sending this many) 0x7fffffff
+
 -i ping-interval (interval in seconds between ping sends) 1.0
+
 -p port number (the port number the server is using) 33333
+
 -s size in bytes (of the application data sent) 12
+
 -n no_print (only print summary stats) print all
+
 -S Server (operate in server mode) client mode
